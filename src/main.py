@@ -12,7 +12,7 @@ class ProcessInput(BaseModel):
 @app.get("/")
 def root():
     return {
-        "message": "hello from VPS",
+        "message": "hello from VPS v2",
         "time": datetime.utcnow().isoformat()
     }
 
