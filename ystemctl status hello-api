@@ -1,0 +1,11 @@
+[0;1;32m●[0m hello-api.service - Hello API FastAPI service
+     Loaded: loaded (]8;;file://hzyahqwyfd/etc/systemd/system/hello-api.service/etc/systemd/system/hello-api.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Mon 2026-03-16 19:47:00 UTC; 35ms ago
+   Main PID: 27280 (uvicorn)
+      Tasks: 1 (limit: 2317)
+     Memory: 364.0K (peak: 1.0M)
+        CPU: 9ms
+     CGroup: /system.slice/hello-api.service
+             └─[0;38;5;245m27280 /opt/projects/hello-api/venv/bin/python3 /opt/projects/hello-api/venv/bin/uvicorn src.main:app --host 0.0.0.0 --port 8000[0m
+
+Mar 16 19:47:00 hzyahqwyfd systemd[1]: Started hello-api.service - Hello API FastAPI service.
